@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdministradorPage">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="419dp"
+        android:layout_height="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barra_admin" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="372dp"
+        android:layout_height="482dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextClave"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="Clave del inmueble"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
+
+            <EditText
+                android:id="@+id/editTextTecIns"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:hint="Tecnologia instalada"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+
+            <EditText
+                android:id="@+id/editTextAncBand"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:hint="Ancho de banda"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+
+            <EditText
+                android:id="@+id/editTextInst"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Institucion"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextNomCen"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Nombre del centro"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextTurHor"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Turno/Horario"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextNiv"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Nivel"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextReg"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Region"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextMun"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Municipio"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextLoc"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Localidad"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+            <EditText
+                android:id="@+id/editTextDom"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Domicilio"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+            <EditText
+                android:id="@+id/editTextCod"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Codigo Postal"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+            <EditText
+                android:id="@+id/editTextLong"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Longitud"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextLat"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Latitud"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <EditText
+                android:id="@+id/editTextEst"
+                android:layout_width="333dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Estatus"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonAgregar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Agregar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonModificar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <Button
+        android:id="@+id/buttonModificar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Modificar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <Button
+        android:id="@+id/buttonEliminar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Eliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonModificar"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
